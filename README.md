@@ -17,12 +17,10 @@ This project aims to demonstrate and compare the capabilities of different class
 
 ## Key Features and Methodology
 
-- **Data Preprocessing**:
-  - Cleaned up nulls values and irrelevant features, renamed features, and converted feature data types
-  -   - Numerical and categorical features were scaled and encoded using pipelines for consistent preprocessing.
-
 - **Feature Engineering**:
-  - One-hot encoding and ordinal encoding were used for categorical variables such as `job`, `education`, `age`, `marital status` and others.
+  - Numerical and categorical features were indentified 
+  - One-hot encoding is used for categorical features such as `job`, `education`, `age`, `marital status` and others.
+  - StandardScaler was applied on numerical features
 
 - **Model Implementation**:
   - `Logistic Regression`
